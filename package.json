@@ -9,6 +9,7 @@
     "name": "Phil Sinatra",
     "url": "http://philsinatra.com"
   },
+  ""
   "scripts": {
     "build": "cross-env NODE_OPTIONS=\"-r esm\" gatsby build",
     "develop": "cross-env NODE_OPTIONS=\"-r esm\" gatsby develop",
@@ -47,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/philsinatra/philsinatra-dot-com.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/philsinatra/philsinatra-dot-com/issues"
   },
   "importSort": {
     ".js, .jsx": {
