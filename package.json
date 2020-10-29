@@ -3,13 +3,12 @@
   "private": true,
   "description": ".com public website",
   "version": "2.0.0",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": {
     "email": "code@philsinatra.com",
     "name": "Phil Sinatra",
     "url": "http://philsinatra.com"
   },
-  ""
   "scripts": {
     "build": "cross-env NODE_OPTIONS=\"-r esm\" gatsby build",
     "develop": "cross-env NODE_OPTIONS=\"-r esm\" gatsby develop",
