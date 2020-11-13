@@ -112,6 +112,21 @@ const IndexStyles = styled.div`
     }
   }
 
+  nav .social {
+    display: flex !important;
+
+    li {
+      margin: 0;
+      a {
+        margin: 0 0.5rem;
+      }
+    }
+
+    @media screen and (max-height: 42.5em) {
+      display: none !important;
+    }
+  }
+
   @media screen and (min-width: 48em) {
     header {
       align-items: center;

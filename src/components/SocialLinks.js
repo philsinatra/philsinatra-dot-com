@@ -6,7 +6,7 @@ const SocialLinkStyles = styled.ul`
   bottom: 0;
   display: flex;
   justify-content: center;
-  left: 0;
+  left: 0 !important;
   list-style: none;
   margin: 0;
   padding: 0;

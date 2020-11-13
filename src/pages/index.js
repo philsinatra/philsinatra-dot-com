@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 import React, { useContext, useEffect } from 'react'
+import { Helmet } from 'react-helmet'
 import { Nav, SEO } from '../components'
 import AppContext from '../state'
 import { IndexStyles } from '../styles'
@@ -14,6 +15,9 @@ export default function Home() {
   return (
     <>
       <SEO title="Home" />
+      <Helmet>
+        <html className="home" lang="en" />
+      </Helmet>
       <IndexStyles>
         <header role="banner">
           {/* <nav role="nav" className="nav-overflow">

@@ -50,6 +50,14 @@ const GlobalStyles = createGlobalStyle`
       font-variant-ligatures: common-ligatures contextual;
       font-variant-numeric: oldstyle-nums proportional-nums;
     }
+
+    &.home {
+      background-color: #1d1b1c;
+
+      header {
+        position: absolute !important;
+      }
+    }
   }
 
   *, *:before, *:after {
@@ -58,6 +66,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: var(--type-sans);
+    /* padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); */
   }
 
   a {
@@ -111,7 +120,7 @@ const GlobalStyles = createGlobalStyle`
     position: fixed;
     top: 0;
     width: 100vw;
-    z-index: 25;
+    z-index: 250;
   }
 `
 

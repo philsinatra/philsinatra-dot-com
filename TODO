@@ -1,7 +1,9 @@
 TODO:
+  ☐ scroll lock iOS
   ☐ browser QC
 
 Archive:
+  ✔ iphone landscape nav close button position @done(20-11-13 10:54) @project(TODO)
   ✔ fix index social hover colors @done(20-10-27 11:05) @project(TODO)
   ✔ on route change, close menu @done(20-10-23 12:28) @project(TODO)
   ✔ setup `favicon.svg` and `logo.svg` @done(20-10-22 14:54) @project(TODO)

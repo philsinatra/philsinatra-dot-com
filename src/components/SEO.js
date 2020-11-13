@@ -80,7 +80,10 @@ export default function SEO({ children, location, description, title, image }) {
       <meta name="theme-color" content="#ffffff" />
 
       {/* Meta Tags */}
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+      />
       <meta charSet="utf-8" />
       <meta name="description" content={site.siteMetadata.description} />
       {/* Open Graph */}

@@ -6,22 +6,25 @@ const NavStyles = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 23.75rem;
   min-height: 100vh;
   position: fixed;
   right: 0;
   top: 0;
   width: 100%;
-  z-index: 30;
   transform: translateX(100%);
   transition: transform var(--duration-200) cubic-bezier(0.215, 0.61, 0.355, 1);
+  z-index: 300;
 
   &.is-open {
     transform: translateX(0);
   }
 
   @media screen and (min-width: 23.8125em) {
+  }
+
+  @media screen and (min-width: 48em) and (min-height: 56.25em) {
     border-left: 1px solid var(--red);
+    max-width: 23.75rem;
   }
 
   button {
@@ -32,6 +35,7 @@ const NavStyles = styled.nav`
     position: absolute;
     right: 1.875rem;
     top: 3.4375rem;
+    z-index: 310;
 
     svg {
       color: var(--white);
@@ -54,10 +58,14 @@ const NavStyles = styled.nav`
     margin: 0;
     max-height: 90vh;
     overflow-y: scroll;
-    padding: 2.25rem;
+    padding: 5rem 2.25rem 2.25rem;
     position: relative;
     text-align: center;
     width: 100%;
+
+    @media screen and (min-width: 48em) and (min-height: 56.25em) {
+      padding: 2.5rem;
+    }
 
     li {
       margin-bottom: 2.5rem;
