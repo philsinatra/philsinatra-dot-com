@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
 const IntroGridStyles = styled.section`
-  padding: 8.125rem 0;
+  padding: 8.125rem 0 4.125rem;
+
+  @media screen and (min-width: 64em) {
+    padding-bottom: 8.125rem;
+  }
 
   .intro-grid {
     margin: 0 auto;

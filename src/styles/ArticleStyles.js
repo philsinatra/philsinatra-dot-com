@@ -23,8 +23,8 @@ const ArticleStyles = styled.article`
 
     &:hover,
     &:focus {
-      background-color: #40000c;
-      color: var(--red);
+      background-color: var(--red);
+      color: var(--white);
     }
   }
 

@@ -50,11 +50,10 @@ const DesignPage = props => {
               </div>
               <div>
                 <p>
-                  I am primarily a front end developer, which means I spend a
-                  ton of time working with code. I always get excited when I get
-                  to do some creative design work, whether it is interface
-                  development, or some graphic design work for print or on
-                  screen.
+                  I spend a ton of time working with code. I always get excited
+                  when I get to do some creative design work, whether it is
+                  interface development, or some graphic design work for print
+                  or on screen.
                 </p>
               </div>
               <div>

@@ -43,9 +43,9 @@ const CoursesPage = props => {
               <li>DIGM491: Senior Project Studio</li>
             </ul>
             <p>
-              Topics range from beginners skills in basic HTML5, CSS3 and
-              JavaScript, to more advanced topics and app development concepts
-              including React, PHP, MySQL, Bash scripting, bundlers and task
+              Topics range from beginners skills in HTML5, CSS3 and JavaScript,
+              to more advanced topics and app development concepts including
+              React, Node.js, PHP, MySQL, shell scripting, bundlers and task
               runners.
             </p>
             <p>

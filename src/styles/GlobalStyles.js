@@ -15,6 +15,7 @@ const GlobalStyles = createGlobalStyle`
     --color-gray-75: #1a1a1a;
     --color-gray-800: #c8c8c8;
     --color-gray-900: #efefef;
+    --color-gray-1000: #fafafa;
     --dark-blue-muted: #7ebac3;
     --dark-gray: hsla(330, 4%, 11%, 1);
     --dark-red-muted: #ca7553;

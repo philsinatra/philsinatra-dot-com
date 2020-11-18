@@ -18,8 +18,8 @@ const WorkStyles = styled.div`
 
     &:hover,
     &:focus {
-      background-color: transparent;
-      color: var(--teal) !important;
+      background-color: var(--teal);
+      color: var(--white) !important;
       outline: 1px dashed var(--color-gray-700);
     }
   }
@@ -97,6 +97,49 @@ const WorkStyles = styled.div`
           margin-bottom: 0;
         }
       }
+    }
+  }
+
+  .work-resume {
+    background: var(--color-gray-1000);
+    padding: 3rem;
+  }
+
+  .work-resume-container {
+    margin: 0 auto;
+    max-width: 1000px;
+
+    @media screen and (min-width: 48em) {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.5rem;
+    }
+
+    h2,
+    h3 {
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+
+      @media screen and (min-width: 31.25em) {
+        padding-left: 2.5rem;
+      }
+    }
+
+    ul ul {
+      padding-left: 1rem;
+      list-style-type: square;
     }
   }
 `
