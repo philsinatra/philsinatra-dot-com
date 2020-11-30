@@ -57,11 +57,12 @@ const AboutPage = props => {
               <div>
                 <h3>Primary Core Skills</h3>
                 <ul>
+                  <li>HTML</li>
+                  <li>CSS (SCSS / LESS / Stylus, Styled Components)</li>
                   <li>JavaScript</li>
-                  <li>CSS3 / SCSS / LESS / Stylus</li>
-                  <li>HTML5</li>
                   <li>Node.js</li>
                   <li>PHP</li>
+                  <li>SQL, MySQL, GraphQL, PDO</li>
                   <li>Web-based Training</li>
                   <li>CMS & Database Development</li>
                   <li>Shell Scripting (Bash, Python, Fish etc)</li>
@@ -86,8 +87,8 @@ const AboutPage = props => {
                 <ul>
                   <li>UI & UX Design & Development</li>
                   <li>Graphic Design</li>
-                  <li>Animation</li>
                   <li>Instructional Design</li>
+                  <li>Animation</li>
                   <li>Video Editing &amp; Compositing</li>
                   <li>Audio Editing</li>
                 </ul>
