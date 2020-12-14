@@ -1,0 +1,21 @@
+total 224
+-rw-r--r--  1 philipsinatra  staff   1.6K Dec 14 16:15 logos_bootstrap.svg
+-rw-r--r--  1 philipsinatra  staff   1.1K Dec 14 16:15 logos_javascript.svg
+-rw-r--r--  1 philipsinatra  staff   5.5K Dec 14 16:15 logos_jquery.svg
+-rw-r--r--  1 philipsinatra  staff   9.6K Dec 14 16:15 logos_nodejs.svg
+-rw-r--r--  1 philipsinatra  staff   1.1K Dec 14 16:15 logos_webpack.svg
+-rw-r--r--  1 philipsinatra  staff   2.0K Dec 14 16:15 logos_wordpress-icon.svg
+-rw-r--r--  1 philipsinatra  staff     0B Dec 14 16:17 pbcopy
+-rw-r--r--  1 philipsinatra  staff   2.7K Dec 14 16:15 simple-icons_gnubash.svg
+-rw-r--r--  1 philipsinatra  staff   875B Dec 14 16:15 vscode-icons_file-type-css.svg
+-rw-r--r--  1 philipsinatra  staff   4.0K Dec 14 16:15 vscode-icons_file-type-graphql.svg
+-rw-r--r--  1 philipsinatra  staff    12K Dec 14 16:15 vscode-icons_file-type-gulp.svg
+-rw-r--r--  1 philipsinatra  staff   791B Dec 14 16:15 vscode-icons_file-type-html.svg
+-rw-r--r--  1 philipsinatra  staff   7.1K Dec 14 16:15 vscode-icons_file-type-less.svg
+-rw-r--r--  1 philipsinatra  staff   4.5K Dec 14 16:15 vscode-icons_file-type-light-stylus.svg
+-rw-r--r--  1 philipsinatra  staff   3.8K Dec 14 16:15 vscode-icons_file-type-mysql.svg
+-rw-r--r--  1 philipsinatra  staff   5.7K Dec 14 16:15 vscode-icons_file-type-php.svg
+-rw-r--r--  1 philipsinatra  staff   2.2K Dec 14 16:15 vscode-icons_file-type-python.svg
+-rw-r--r--  1 philipsinatra  staff   3.4K Dec 14 16:15 vscode-icons_file-type-reactjs.svg
+-rw-r--r--  1 philipsinatra  staff   2.4K Dec 14 16:15 vscode-icons_file-type-scss2.svg
+-rw-r--r--  1 philipsinatra  staff   3.3K Dec 14 16:15 vscode-icons_file-type-svelte.svg

@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import { SEO } from '../components'
+import IconsLangs from '../components/IconsLangs'
 import { AboutStyles, IntroGridStyles } from '../styles'
 import Article from '../templates/Article'
 import { getYearTotal } from '../utils/getYearTotal'
@@ -53,6 +54,7 @@ const AboutPage = props => {
             </div>
           </IntroGridStyles>
           <section id="stack" className="stack">
+            <IconsLangs />
             <div className="stack-grid">
               <div>
                 <h3>Primary Core Skills</h3>
@@ -74,6 +76,7 @@ const AboutPage = props => {
                 <h3>Libraries</h3>
                 <ul>
                   <li>React</li>
+                  <li>Svelte</li>
                   <li>Express</li>
                   <li>Gulp/Webpack</li>
                   <li>GatsbyJS</li>
