@@ -18,10 +18,10 @@ export default {
         name: 'about',
         link: '/about',
       },
-      {
-        name: 'work',
-        link: '/work',
-      },
+      // {
+      //   name: 'work',
+      //   link: '/work',
+      // },
       {
         name: 'courses',
         link: '/courses',

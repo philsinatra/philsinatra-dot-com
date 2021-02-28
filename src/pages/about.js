@@ -24,15 +24,15 @@ const AboutPage = props => {
               <div>
                 <p>
                   I'm Phil Sinatra, a full stack web developer and designer from
-                  New Jersey. I currently work full time with{' '}
+                  New Jersey. I currently work as the VP of Marketing for{' '}
                   <a
-                    href="http://epvisual.com"
+                    href="http://gwsiinc.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    EP Visual Design
-                  </a>{' '}
-                  as a developer, designer and project manager. I also teach at{' '}
+                    M. Gerace Enterprise
+                  </a>
+                  . I also teach at{' '}
                   <a
                     href="https://drexel.edu/westphal/"
                     target="_blank"
