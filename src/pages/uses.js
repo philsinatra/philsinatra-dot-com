@@ -33,15 +33,7 @@ const UsesPage = props => (
               is my current editor.
             </li>
             <li>
-              I change themes regularly (currently rocking{' '}
-              <a
-                href="https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Cobalt2
-              </a>
-              ). I have created a few themes, including{' '}
+              I change themes regularly. I have created a few themes, including{' '}
               <a
                 href="https://marketplace.visualstudio.com/items?itemName=philsinatra.macos-dark-mode-theme"
                 target="_blank"
@@ -49,7 +41,7 @@ const UsesPage = props => (
               >
                 Dark Mode
               </a>{' '}
-              and{' '}
+              (currently rocking the secret, MDN inspired version) and{' '}
               <a
                 href="https://marketplace.visualstudio.com/items?itemName=philsinatra.popping-and-locking-vscode-black"
                 target="_blank"
@@ -126,7 +118,7 @@ const UsesPage = props => (
               >
                 Firefox Nightly
               </a>{' '}
-              as my main development browser.
+              as my main development browser, and Safari for general browsing.
             </li>
             <li>
               I use{' '}
@@ -175,24 +167,40 @@ const UsesPage = props => (
           <h2>Desktop Apps</h2>
           <ul>
             <li>
-              I use{' '}
+              <del>
+                I use{' '}
+                <a
+                  href="https://www.alfredapp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Alfred
+                </a>{' '}
+                with many workflows. I was able to remove TextExpander from my
+                workflow completely with Alfred's{' '}
+                <a
+                  href="https://www.alfredapp.com/help/features/snippets/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  snippets and text expansion functionality
+                </a>
+                .
+              </del>
+            </li>
+            <li>
+              Alfred has been a great tool for a long time, but{' '}
               <a
-                href="https://www.alfredapp.com"
+                href="https://www.raycast.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Alfred
+                Raycast
               </a>{' '}
-              with many workflows. I was able to remove TextExpander from my
-              workflow completely with Alfred's{' '}
-              <a
-                href="https://www.alfredapp.com/help/features/snippets/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                snippets and text expansion functionality
-              </a>
-              .
+              is the hot new productivity tool. I switched to Raycast with my
+              last laptop and I have no complaints. It's fast, full of helpful
+              extensions, and the development team has regular releases that add
+              a lot of great functionality.
             </li>
             <li>
               I do my design work in{' '}
@@ -203,36 +211,21 @@ const UsesPage = props => (
               >
                 Figma
               </a>
-              . I used to use{' '}
-              <a
-                href="https://www.sketch.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sketch
-              </a>{' '}
-              but I've found that I prefer Figma. I wrote a Sketch plugin a
-              while back for exporting color values as variables for use in
-              various CSS pre-processors called{' '}
-              <a
-                href="https://github.com/philsinatra/Sketch-Color-Vars"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sketch Color Vars
-              </a>
               .
             </li>
             <li>
-              I use a nifty emoji picker called{' '}
-              <a
-                href="https://matthewpalmer.net/rocket/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Rocket
-              </a>
-              .
+              <del>
+                I use a nifty emoji picker called{' '}
+                <a
+                  href="https://matthewpalmer.net/rocket/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Rocket
+                </a>
+                .
+              </del>
+              Raycast handles my emoji picker needs now!
             </li>
           </ul>
           <h2>Desk Setup</h2>
@@ -248,8 +241,8 @@ const UsesPage = props => (
               </a>
             </li>
             <li>
-              I currently use a 2018 15" MacBook Pro running macOS Catalina as
-              my primary system.
+              I currently use a 2021 16" M1 MacBook Pro 💪🏼 running macOS
+              Monterey as my primary system.
             </li>
             <li>
               I also run a{' '}
