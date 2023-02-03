@@ -121,13 +121,21 @@ const UsesPage = props => (
               as my main development browser, and Safari for general browsing.
             </li>
             <li>
-              I use{' '}
+              I recently switched from{' '}
               <a
                 href="https://iterm2.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 iTerm2
+              </a>{' '}
+              to{' '}
+              <a
+                href="https://www.warp.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Warp
               </a>{' '}
               as my terminal, and my primary shell is{' '}
               <a
@@ -241,8 +249,8 @@ const UsesPage = props => (
               </a>
             </li>
             <li>
-              I currently use a 2021 16" M1 MacBook Pro 💪🏼 running macOS
-              Monterey as my primary system.
+              I currently use a 2021 16" M1 MacBook Pro 💪🏼 running macOS Ventura
+              as my primary system.
             </li>
             <li>
               I also run a{' '}

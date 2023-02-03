@@ -38,6 +38,7 @@ const CoursesPage = props => {
               <li>IDM222: Web Authoring II</li>
               <li>IDM231: Scripting I</li>
               <li>IDM232: Scripting II</li>
+              <li>IDM363: Interactive App Design III</li>
               <li>IDM364: Interactive App Design IV</li>
               <li>IDM-T380: Workflow Optimization Techniques</li>
               <li>DIGM491: Senior Project Studio</li>
